@@ -1,0 +1,46 @@
+{
+  "name": "nxhuman",
+  "version": "1.2.0",
+  "description": "IDE-agnostic AI context installer - Evidence over assumptions, code over documentation, efficiency over verbosity",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "nxhuman": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "ai",
+    "nextjs",
+    "development",
+    "context",
+    "minimal",
+    "cli",
+    "cursor",
+    "zed",
+    "windsurf",
+    "rules",
+    "engineering"
+  ],
+  "author": "Prajjwal Datir <in.prajj@gmail.com> (https://github.com/PrajjwalDatir)",
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrajjwalDatir/nxhuman.git"
+  },
+  "homepage": "https://github.com/PrajjwalDatir/nxhuman#readme",
+  "bugs": {
+    "url": "https://github.com/PrajjwalDatir/nxhuman/issues"
+  }
+}

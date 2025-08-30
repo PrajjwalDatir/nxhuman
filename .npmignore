@@ -1,0 +1,54 @@
+# Development files
+.rules
+.cursorrules
+*.log
+*.tmp
+.DS_Store
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation source files
+docs/
+
+# Git files
+.git/
+.gitignore
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Build artifacts
+dist/
+build/
+*.tgz
+
+# Development dependencies
+node_modules/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Package manager files (except package.json)
+yarn.lock
+pnpm-lock.yaml
+
+# Keep only essentials:
+# - index.js (main executable)
+# - README.md (documentation)
+# - LICENSE (legal)
+# - package.json (manifest)
+# - package-lock.json (dependency lock)
