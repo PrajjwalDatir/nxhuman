@@ -74,7 +74,7 @@ The `.rules` file includes embedded project context:
 
 **Your AI will reference this context for all architectural decisions.**
 
-### UNKNOWNS System (v1.1.0)
+### UNKNOWNS System
 The vibe coder describes intent, the system resolves implementation:
 - **Package Manager**: UNKNOWN → (npm|pnpm|yarn|bun)
 - **Database**: UNKNOWN → (postgres|mysql|sqlite)

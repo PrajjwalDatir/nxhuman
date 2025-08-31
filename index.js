@@ -23,8 +23,10 @@ const flags = {
   version: args.includes("--version") || args.includes("-v"),
 };
 
-// Version info
-const VERSION = "1.1.0";
+// Version info (read dynamically from package.json)
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const { version: VERSION } = require("./package.json");
 
 // Display version and exit if requested
 if (flags.version) {

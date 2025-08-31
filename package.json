@@ -1,6 +1,6 @@
 {
   "name": "nxhuman",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "IDE-agnostic AI context installer - Evidence over assumptions, code over documentation, efficiency over verbosity",
   "main": "index.js",
   "type": "module",
