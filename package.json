@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "nxhuman": "./index.js"
+    "nxhuman": "index.js"
   },
   "files": [
     "index.js",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PrajjwalDatir/nxhuman.git"
+    "url": "git+https://github.com/PrajjwalDatir/nxhuman.git"
   },
   "homepage": "https://github.com/PrajjwalDatir/nxhuman#readme",
   "bugs": {
